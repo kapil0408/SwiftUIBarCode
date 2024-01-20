@@ -14,6 +14,8 @@
 		82DC73AE2B5B8EC9007A5082 /* SwiftUIBarCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC73AD2B5B8EC9007A5082 /* SwiftUIBarCodeTests.swift */; };
 		82DC73B82B5B8EC9007A5082 /* SwiftUIBarCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC73B72B5B8EC9007A5082 /* SwiftUIBarCodeUITests.swift */; };
 		82DC73BA2B5B8EC9007A5082 /* SwiftUIBarCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC73B92B5B8EC9007A5082 /* SwiftUIBarCodeUITestsLaunchTests.swift */; };
+		82DC73C72B5BA68A007A5082 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC73C62B5BA68A007A5082 /* ScannerVC.swift */; };
+		82DC73C92B5BADC3007A5082 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC73C82B5BADC3007A5082 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		82DC73B32B5B8EC9007A5082 /* SwiftUIBarCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBarCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DC73B72B5B8EC9007A5082 /* SwiftUIBarCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBarCodeUITests.swift; sourceTree = "<group>"; };
 		82DC73B92B5B8EC9007A5082 /* SwiftUIBarCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBarCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82DC73C62B5BA68A007A5082 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		82DC73C82B5BADC3007A5082 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				82DC739E2B5B8EC6007A5082 /* ContentView.swift */,
 				82DC73A02B5B8EC8007A5082 /* Assets.xcassets */,
 				82DC73A22B5B8EC8007A5082 /* Preview Content */,
+				82DC73C62B5BA68A007A5082 /* ScannerVC.swift */,
+				82DC73C82B5BADC3007A5082 /* ScannerView.swift */,
 			);
 			path = SwiftUIBarCode;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DC73C72B5BA68A007A5082 /* ScannerVC.swift in Sources */,
+				82DC73C92B5BADC3007A5082 /* ScannerView.swift in Sources */,
 				82DC739F2B5B8EC6007A5082 /* ContentView.swift in Sources */,
 				82DC739D2B5B8EC6007A5082 /* SwiftUIBarCodeApp.swift in Sources */,
 			);
@@ -420,6 +428,7 @@
 				DEVELOPMENT_TEAM = 3D9VAD2697;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "User wants to scan bar code";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +458,7 @@
 				DEVELOPMENT_TEAM = 3D9VAD2697;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "User wants to scan bar code";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
