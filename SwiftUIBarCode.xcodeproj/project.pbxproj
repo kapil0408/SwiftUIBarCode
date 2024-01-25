@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		822220802B62210000CD2F66 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8222207F2B62210000CD2F66 /* Alert.swift */; };
 		82DC739D2B5B8EC6007A5082 /* SwiftUIBarCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC739C2B5B8EC6007A5082 /* SwiftUIBarCodeApp.swift */; };
 		82DC739F2B5B8EC6007A5082 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC739E2B5B8EC6007A5082 /* ContentView.swift */; };
 		82DC73A12B5B8EC8007A5082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DC73A02B5B8EC8007A5082 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8222207F2B62210000CD2F66 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		82DC73992B5B8EC6007A5082 /* SwiftUIBarCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBarCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DC739C2B5B8EC6007A5082 /* SwiftUIBarCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBarCodeApp.swift; sourceTree = "<group>"; };
 		82DC739E2B5B8EC6007A5082 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				82DC73A22B5B8EC8007A5082 /* Preview Content */,
 				82DC73C62B5BA68A007A5082 /* ScannerVC.swift */,
 				82DC73C82B5BADC3007A5082 /* ScannerView.swift */,
+				8222207F2B62210000CD2F66 /* Alert.swift */,
 			);
 			path = SwiftUIBarCode;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				82DC73C72B5BA68A007A5082 /* ScannerVC.swift in Sources */,
 				82DC73C92B5BADC3007A5082 /* ScannerView.swift in Sources */,
 				82DC739F2B5B8EC6007A5082 /* ContentView.swift in Sources */,
+				822220802B62210000CD2F66 /* Alert.swift in Sources */,
 				82DC739D2B5B8EC6007A5082 /* SwiftUIBarCodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
