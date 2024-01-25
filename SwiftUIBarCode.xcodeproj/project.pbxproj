@@ -82,6 +82,7 @@
 		822220832B62739E00CD2F66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				822220882B62744F00CD2F66 /* ViewModel */,
 				822220862B6273DC00CD2F66 /* View */,
 				822220842B6273A500CD2F66 /* UIKit Components */,
 			);
@@ -112,6 +113,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		822220872B62743000CD2F66 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8222207F2B62210000CD2F66 /* Alert.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		822220882B62744F00CD2F66 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				822220812B626E8800CD2F66 /* BarcodeScannerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		82DC73902B5B8EC5007A5082 = {
 			isa = PBXGroup;
 			children = (
@@ -135,13 +152,12 @@
 		82DC739B2B5B8EC6007A5082 /* SwiftUIBarCode */ = {
 			isa = PBXGroup;
 			children = (
+				822220872B62743000CD2F66 /* Utilities */,
 				822220852B6273B100CD2F66 /* Screen */,
 				822220832B62739E00CD2F66 /* Views */,
 				82DC739C2B5B8EC6007A5082 /* SwiftUIBarCodeApp.swift */,
 				82DC73A02B5B8EC8007A5082 /* Assets.xcassets */,
 				82DC73A22B5B8EC8007A5082 /* Preview Content */,
-				8222207F2B62210000CD2F66 /* Alert.swift */,
-				822220812B626E8800CD2F66 /* BarcodeScannerViewModel.swift */,
 			);
 			path = SwiftUIBarCode;
 			sourceTree = "<group>";
